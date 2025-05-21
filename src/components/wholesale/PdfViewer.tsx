@@ -13,7 +13,7 @@ const PdfViewer: React.FC = () => {
   const [isViewerOpen, setIsViewerOpen] = useState<boolean>(false);
 
   // This would be your actual catalog PDF URL
-  const catalogUrl = 'laf.pdf';
+  const catalogUrl = 'https://www.ingenieria.unam.mx/dcsyhfi/material_didactico/Literatura_Hispanoamericana_Contemporanea/Autores_B/BENEDETTI/Poemas.pdf';
 
   const onDocumentLoadSuccess = ({ numPages }: { numPages: number }) => {
     setNumPages(numPages);
@@ -49,7 +49,7 @@ const PdfViewer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-primary-blue hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-medium transition-colors"
-              download="LB-Asian-Food-Catalog.pdf"
+              download="https://www.ingenieria.unam.mx/dcsyhfi/material_didactico/Literatura_Hispanoamericana_Contemporanea/Autores_B/BENEDETTI/Poemas.pdf"
             >
               <Download size={18} className="mr-2" />
               {t('wholesale.catalog.download')}
