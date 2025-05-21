@@ -9,12 +9,12 @@ const ContactInfo: React.FC = () => {
     {
       icon: <MapPin className="w-5 h-5 text-primary-blue" />,
       title: t('contact.info.address'),
-      content: '123 Korean Food St, Seoul, South Korea'
+      content: 'Bolivar 219, Int 102 Col. Obrera, Cuauhtémoc, 06800, CDMX, México'
     },
     {
       icon: <Phone className="w-5 h-5 text-primary-red" />,
       title: t('contact.info.phone'),
-      content: '+82 2 1234 5678'
+      content: '55 55 78 78 63'
     },
     {
       icon: <Mail className="w-5 h-5 text-primary-yellow" />,
