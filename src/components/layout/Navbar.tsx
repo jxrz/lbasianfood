@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="z-20">
+        <Link to="/lbasianfood" className="z-20">
           <Logo isDark={isDarkMode} />
         </Link>
 
