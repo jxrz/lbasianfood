@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
   }, [location]);
 
   const navLinks = [
-    { path: '/', label: t('nav.home') },
+    { path: '/lbasianfood', label: t('nav.home') },
     { path: '/wholesale', label: t('nav.wholesale') },
     { path: '/about', label: t('nav.about') },
     { path: '/contact', label: t('nav.contact') }

@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
     {
       title: t('footer.company'),
       links: [
-        { label: t('nav.home'), href: '/' },
+        { label: t('nav.home'), href: '/lbasianfood' },
         { label: t('nav.about'), href: '/about' },
         { label: t('footer.services'), href: '/services' },
         { label: t('nav.contact'), href: '/contact' }
